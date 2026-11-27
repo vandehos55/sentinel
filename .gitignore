@@ -1,0 +1,7 @@
+.env
+wallet-testnet.json
+out/
+cache/
+broadcast/
+lib/
+node_modules/

@@ -1,0 +1,1 @@
+{"dependencies":{"ethers":"^6.13.0"},"description":"Sentinel AI risk-scoring agent: reads ETH/USD, asks an LLM for a 0-100 risk score, publishes it to the RiskOracle on Base Sepolia.","name":"sentinel-agent","private":true,"scripts":{"demo":"node agent.mjs --demo","once":"node agent.mjs --once","start":"node agent.mjs"},"type":"module","version":"1.0.0"}

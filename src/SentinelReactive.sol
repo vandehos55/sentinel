@@ -53,7 +53,7 @@ contract SentinelReactive is AbstractReactive {
         _;
     }
 
-    constructorr(
+    constructor(
         address oracle_,
         uint256 originChainId_,
         uint256 threshold_,

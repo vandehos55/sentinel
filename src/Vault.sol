@@ -36,7 +36,7 @@ contract Vault is AbstractCallback {
         _;
     }
 
-    constructorr(IPayable callbackProxy_, address callbackSender_, address safeAddress_)
+    constructor(IPayable callbackProxy_, address callbackSender_, address safeAddress_)
         payable
         AbstractCallback(callbackProxy_, callbackSender_)
     {

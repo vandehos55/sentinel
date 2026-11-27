@@ -34,7 +34,7 @@ contract RiskOracle {
         _;
     }
 
-    constructorr(address agent_) {
+    constructor(address agent_) {
         if (agent_ == address(0)) revert ZeroAddress();
         agent = agent_;
         owner = msg.sender;
